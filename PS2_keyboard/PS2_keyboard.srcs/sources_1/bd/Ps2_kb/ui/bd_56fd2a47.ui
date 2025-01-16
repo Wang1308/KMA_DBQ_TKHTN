@@ -1,0 +1,26 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.847074",
+   "Default View_TopLeft":"-117,-41",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -10 -y 30 -defaultsOSRD
+preplace port port-id_ps2_clk -pg 1 -lvl 0 -x -10 -y 110 -defaultsOSRD
+preplace port port-id_ps2_data -pg 1 -lvl 0 -x -10 -y 130 -defaultsOSRD
+preplace port port-id_ascii_new -pg 1 -lvl 3 -x 490 -y 120 -defaultsOSRD
+preplace portBus ascii_code -pg 1 -lvl 3 -x 490 -y 150 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 2 -x 370 -y 80 -defaultsOSRD
+preplace inst ps2_keyboard_to_ascii_0 -pg 1 -lvl 1 -x 140 -y 110 -defaultsOSRD
+preplace netloc clk_0_1 1 0 2 10 30 280
+preplace netloc ps2_clk_1 1 0 1 NJ 110
+preplace netloc ps2_data_1 1 0 1 NJ 130
+preplace netloc ps2_keyboard_to_ascii_0_ascii_code 1 1 2 280 160 470
+preplace netloc ps2_keyboard_to_ascii_0_ascii_new 1 1 2 270 170 460
+levelinfo -pg 1 -10 140 370 490
+pagesize -pg 1 -db -bbox -sgen -120 -20 640 190
+"
+}
+{
+   "da_clkrst_cnt":"3"
+}
