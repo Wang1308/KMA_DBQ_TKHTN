@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER PS2_keyboard_ip
+	OPTION supported_peripherals = (PS2_keyboard_ip);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = PS2_keyboard_ip;
+END DRIVER
