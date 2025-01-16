@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Dec 19 15:49:22 2024
+# Process ID: 16344
+# Current directory: D:/TK_HTN/PS2_keyboard
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent708 D:\TK_HTN\PS2_keyboard\PS2_keyboard.xpr
+# Log file: D:/TK_HTN/PS2_keyboard/vivado.log
+# Journal file: D:/TK_HTN/PS2_keyboard\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/TK_HTN/PS2_keyboard/PS2_keyboard.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/TK_HTN/PS2_keyboard/PS2_keyboard.srcs/sources_1/bd/PS2_keyboard_ip/PS2_keyboard_ip.bd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/TK_HTN/ip_repo/PS2_keyboard_ip_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/TK_HTN/ip_repo/PS2_keyboard_ip_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/TK_HTN/ip_repo/PS2_keyboard_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:10 . Memory (MB): peak = 1464.480 ; gain = 0.000
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/TK_HTN/PS2_keyboard/PS2_keyboard.gen/sources_1/bd/PS2_keyboard_ip/hdl/PS2_keyboard_ip_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  D:/TK_HTN/PS2_keyboard/PS2_keyboard.gen/sources_1/bd/PS2_keyboard_ip/hdl/PS2_keyboard_ip_wrapper.vhd
+file delete -force D:/TK_HTN/PS2_keyboard/PS2_keyboard.gen/sources_1/bd/PS2_keyboard_ip/hdl/PS2_keyboard_ip_wrapper.vhd
+remove_files  D:/TK_HTN/PS2_keyboard/PS2_keyboard.gen/sources_1/bd/PS2_keyboard_ip/hdl/PS2_keyboard_ip_wrapper.vhd
+WARNING: [Vivado 12-818] No files matched 'D:/TK_HTN/PS2_keyboard/PS2_keyboard.gen/sources_1/bd/PS2_keyboard_ip/hdl/PS2_keyboard_ip_wrapper.vhd'
+export_ip_user_files -of_objects  [get_files D:/TK_HTN/PS2_keyboard/PS2_keyboard.srcs/sources_1/bd/PS2_keyboard_ip/PS2_keyboard_ip.bd] -no_script -reset -force -quiet
+remove_files  D:/TK_HTN/PS2_keyboard/PS2_keyboard.srcs/sources_1/bd/PS2_keyboard_ip/PS2_keyboard_ip.bd
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/TK_HTN/PS2_keyboard/PS2_keyboard.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Dec 19 15:51:48 2024] Launched synth_1...
+Run output will be captured here: D:/TK_HTN/PS2_keyboard/PS2_keyboard.runs/synth_1/runme.log
+[Thu Dec 19 15:51:48 2024] Launched impl_1...
+Run output will be captured here: D:/TK_HTN/PS2_keyboard/PS2_keyboard.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 19 15:54:48 2024...

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Dec 19 15:42:29 2024
+# Process ID: 11276
+# Current directory: D:/TK_HTN/PS2_keyboard
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10432 D:\TK_HTN\PS2_keyboard\PS2_keyboard.xpr
+# Log file: D:/TK_HTN/PS2_keyboard/vivado.log
+# Journal file: D:/TK_HTN/PS2_keyboard\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/TK_HTN/PS2_keyboard/PS2_keyboard.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

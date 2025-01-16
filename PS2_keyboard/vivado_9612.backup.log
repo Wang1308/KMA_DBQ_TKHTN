@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jan  3 18:24:12 2025
+# Process ID: 9612
+# Current directory: D:/TK_HTN/PS2_keyboard
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3760 D:\TK_HTN\PS2_keyboard\PS2_keyboard.xpr
+# Log file: D:/TK_HTN/PS2_keyboard/vivado.log
+# Journal file: D:/TK_HTN/PS2_keyboard\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/TK_HTN/PS2_keyboard/PS2_keyboard.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/TK_HTN/ip_repo/PS2_keyboard_ip_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'd:/TK_HTN/ip_repo/PS2_keyboard_ip_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/TK_HTN/ip_repo/PS2_keyboard_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:10 . Memory (MB): peak = 1463.551 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  3 18:27:40 2025...
