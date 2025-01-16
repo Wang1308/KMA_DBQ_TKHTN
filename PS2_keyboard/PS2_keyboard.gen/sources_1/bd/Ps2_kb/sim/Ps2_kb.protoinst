@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"Ps2_kb": {
+			"proto_instances": {
+			}
+		}
+	}
+}
